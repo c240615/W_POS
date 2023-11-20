@@ -1,0 +1,46 @@
+/*刪除鍵*/
+[data-alpha-pos="delete-drink"] {
+  display: inline-block;
+  text-align: center;
+  color: #999;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  line-height: 1;
+}
+/*指向刪除鍵*/
+[data-alpha-pos="delete-drink"]:hover {
+  color: #333;
+}
+/*背景顏色*/
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+}
+/*手指圖示*/
+.menu .card-body {
+  cursor: pointer;
+}
+/*陰影*/
+.menu .card:hover {
+  box-shadow: 0px 0px 10px 1px rgba(255,255,255,0.8);
+}
+/*置中*/
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('alphaPos-bg.jpg') no-repeat center center;
+  background-size: cover;
+}
+/*卷軸*/
+.row {
+  max-height: 600px;
+}
+
+.col-md-4 {
+  overflow-y: auto;
+}
+.col-md-4 { max-height: 580px; }
