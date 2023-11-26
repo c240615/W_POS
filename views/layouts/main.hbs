@@ -40,16 +40,16 @@ function Drink(name, sugar, ice) {
 /* price 共用方法 */
 Drink.prototype.price = function () {
   switch (this.name) {
-    case "Black Tea":
-    case "Oolong Tea":
-    case "Baozong Tea":
-    case "Green Tea":
+    case "紅茶":
+    case "青茶":
+    case "麥茶":
+    case "烏龍":
       return 30;
-    case "Bubble Milk Tea":
-    case "Lemon Green Tea":
+    case "珍珠奶茶":
+    case "布丁奶茶":
       return 50;
-    case "Black Tea Latte":
-    case "Matcha Latte":
+    case "紅茶拿鐵":
+    case "抹茶拿鐵":
       return 55;
     default:
       alert("沒有這個品項");
