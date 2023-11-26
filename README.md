@@ -1,3 +1,3 @@
 # POS SYSTEM
 
-![image](E:\workspace\W_POS\public\index.PNG)
+![image](https://github.com/c240615/W_POS/blob/main/public/index.PNG)
